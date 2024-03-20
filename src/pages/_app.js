@@ -9,7 +9,6 @@ import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import { Toaster } from "react-hot-toast";
 import { Provider } from "react-redux";
-import "swiper/css/bundle";
 import { isLoggedIn } from "@/components/services/auth.service";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
